@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-wf*@umsq4=48qg#uu(44n7mb-7_8#k((#iw6xuc%+%2$=(xuwg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['harars.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['sonnyapi.onrender.com', '127.0.0.1', 'localhost']
 
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
-   'https://hararhospital.vercel.app',
-   'https://harars.onrender.com',
+   'https://sonnymed.vercel.app',
+   'https://sonnyapi.onrender.com',
 ]
 
 CORS_ALLOW_HEADERS = [
